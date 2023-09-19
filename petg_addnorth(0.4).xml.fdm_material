@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<fdmmaterial xmlns="http://www.ultimaker.com/material" xmlns:cura="http://www.ultimaker.com/cura" version="1.0">
+    <metadata>
+        <name>
+            <brand>Add-north</brand>
+            <material>PETG</material>
+            <color>Red</color>
+        </name>
+        <GUID>99e773f1-2ef2-44bc-99ca-833686be8140</GUID>
+        <version>1</version>
+        <color_code>#FF0000</color_code>
+        <description>Add north PETG</description>
+        <adhesion_info></adhesion_info>
+        <instruction_link></instruction_link>
+    </metadata>
+    <properties>
+        <density>1.27</density>
+        <diameter>1.75</diameter>
+        <weight>750</weight>
+    </properties>
+    <settings>
+        <cura:setting key="adhesion_z_offset">0.1</cura:setting>
+        <cura:setting key="material_print_temperature">242</cura:setting>
+        <cura:setting key="layer_height">0.20</cura:setting>
+        <cura:setting key="machine_nozzle_size">0.4</cura:setting>
+        <cura:setting key="speed_print">35</cura:setting>
+        <cura:setting key="speed_wall">45</cura:setting>
+        <cura:setting key="speed_wall_0">30</cura:setting>
+        <cura:setting key="retraction_enable">True</cura:setting>
+        <cura:setting key="retraction_amount">0.53</cura:setting>
+        <cura:setting key="retraction_speed">13</cura:setting>
+        <cura:setting key="retract_at_layer_change">True</cura:setting>
+        <cura:setting key="travel_retract_before_outer_wall">True</cura:setting>
+        <cura:setting key="cool_fan_speed">30</cura:setting>
+        <cura:setting key="cool_fan_speed_0">0</cura:setting>
+        <cura:setting key="cool_min_layer_time">5</cura:setting>
+        <cura:setting key="layer_height_0">0.40</cura:setting>
+        <cura:setting key="speed_layer_0">20</cura:setting>
+        <cura:setting key="material_print_temperature_layer_0">255</cura:setting>
+        <cura:setting key="initial_layer_line_width_factor">120</cura:setting>
+        <cura:setting key="wall_thickness">1.2</cura:setting>
+        <cura:setting key="top_thickness">0.6</cura:setting>
+        <cura:setting key="bottom_thickness">0.6</cura:setting>
+        <cura:setting key="z_seam_corner">z_seam_corner_inner</cura:setting>
+        <cura:setting key="material_flow">95</cura:setting>
+        <cura:setting key="inset_direction">outside_in</cura:setting>
+        <cura:setting key="retraction_combing">off</cura:setting>
+        <cura:setting key="travel_retract_before_outer_wall">false</cura:setting>
+        <cura:setting key="retraction_hop_enabled">true</cura:setting>
+        <cura:setting key="retraction_hop">0.2</cura:setting>
+        <cura:setting key="adhesion_type">none</cura:setting>
+        <cura:setting key="material_bed_temperature">45</cura:setting>
+        <cura:setting key="material_bed_temperature_layer_0">50</cura:setting>
+    </settings>
+ </fdmmaterial>

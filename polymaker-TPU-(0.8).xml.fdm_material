@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<fdmmaterial xmlns="http://www.ultimaker.com/material" xmlns:cura="http://www.ultimaker.com/cura" version="1.0">
+    <metadata>
+        <name>
+            <brand>Polymaker</brand>
+            <material>TPU(0.8)</material>
+            <color>Black</color>
+        </name>
+        <GUID>04383413-a773-403f-90b0-fcacea56b263</GUID>
+        <version>1</version>
+        <color_code>#0e0e10</color_code>
+        <description>Polymaker TPU</description>
+        <adhesion_info></adhesion_info>
+        <instruction_link></instruction_link>
+    </metadata>
+    <properties>
+        <density>1.21</density>
+        <diameter>1.75</diameter>
+        <weight>500</weight>
+    </properties>
+    <settings>
+        <cura:setting key="material_print_temperature">232</cura:setting>
+
+        <cura:setting key="layer_height">0.24</cura:setting>
+        <cura:setting key="machine_nozzle_size">0.8</cura:setting>
+        <cura:setting key="retraction_enable">true</cura:setting>
+        <cura:setting key="default_material_print_temperature">227</cura:setting>
+        <cura:setting key="speed_print">20</cura:setting>
+
+        <cura:setting key="retraction_amount">0.4</cura:setting>
+        <cura:setting key="retraction_speed">20</cura:setting>
+        <cura:setting key="retract_at_layer_change">true</cura:setting>
+        <cura:setting key="travel_retract_before_outer_wall">true</cura:setting>
+        <cura:setting key="cool_fan_speed">0</cura:setting>
+
+        <cura:setting key="layer_height_0">0.80</cura:setting>
+        <cura:setting key="speed_layer_0">20</cura:setting>
+        <cura:setting key="material_print_temperature_layer_0">228</cura:setting>
+    </settings>
+ </fdmmaterial>
