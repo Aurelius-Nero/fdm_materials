@@ -30,18 +30,18 @@ jobs:
         with:
             project_name: fdm_materials
 
-    conan-package-export-linux:
-        needs: [ conan-recipe-version ]
-        uses: Aurelius-Nero/cura/.github/workflows/conan-recipe-export.yml@main
-        with:
-            recipe_id_full: ${{ needs.conan-recipe-version.outputs.recipe_id_full }}
-            recipe_id_latest: ${{ needs.conan-recipe-version.outputs.recipe_id_latest }}
-            runs_on: 'ubuntu-20.04'
-            python_version: '3.10.x'
-            conan_config_branch: 'master'
-            conan_logging_level: 'info'
-            conan_export_binaries: true
-        secrets: inherit
+#    conan-package-export-linux:
+#        needs: [ conan-recipe-version ]
+#        uses: Aurelius-Nero/cura/.github/workflows/conan-recipe-export.yml@main
+#        with:
+#            recipe_id_full: ${{ needs.conan-recipe-version.outputs.recipe_id_full }}
+#            recipe_id_latest: ${{ needs.conan-recipe-version.outputs.recipe_id_latest }}
+#            runs_on: 'ubuntu-20.04'
+#            python_version: '3.10.x'
+#            conan_config_branch: 'master'
+#            conan_logging_level: 'info'
+#            conan_export_binaries: true
+#        secrets: inherit
 
 #    notify-export:
 #        if: ${{ always() }}
