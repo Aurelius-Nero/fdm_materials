@@ -9,7 +9,7 @@ required_conan_version = ">=1.56.0"
 
 
 class FDM_MaterialsConan(ConanFile):
-    name = "fdm_materials"
+    name = "fdm_materials-v2"
     license = "LGPL-3.0"
     author = "Ultimaker B.V."
     url = "https://github.com/Ultimaker/fdm_materials"
